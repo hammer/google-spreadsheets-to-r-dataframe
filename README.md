@@ -25,7 +25,7 @@ Get a connection object:
 
     > sheets.con = getGoogleDocsConnection(getGoogleAuth(<username>, <password>, service = "wise"))
     
-Get handles for your spreadsheets and workshees:
+Get handles for your spreadsheets and worksheets:
 
     > spreadsheets = getDocs(sheets.con)
     > worksheets = getWorksheets(spreadsheets[[<spreadsheet_name>]], sheets.con)
